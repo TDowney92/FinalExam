@@ -1,0 +1,8 @@
+FINAL EXAM DATABSE LOG IN	
+
+
+	username:  tmed
+
+	pass: Misty425
+
+	server name: finalexam425.database.windows.net
