@@ -13,28 +13,31 @@ namespace FinalExam.Models
         // GET api/<controller>
         public Teams()
         {
-            Teams = new HashSet<Teams>();
+            Teams = new HashSet<Team>();
+        }
+        
+        public int TeamId { get; set; }
+
+        [StringLength(120)]
+        [Display(Name = "Team")]
+
+        public string Team { get; set; }
+
+        public virtual ICollection<Team> Teams { get; set; }
+
+
+        public GamesPLayed()
+        {
+            GamesPLayed = new HashSet<GamesPlayed>();
         }
 
-        // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
-        }
+        public int GamesId { get; set; }
 
-        // POST api/<controller>
-        public void Post([FromBody]string value)
-        {
-        }
+        [StringLength(120)]
+        [Display(GamesPLayed = "GP")]
 
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+        public string GamesPLayed { get; set; }
 
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
-        }
+        public virtual ICollection<GamesPlayed> Teams { get; set; }
     }
 }
