@@ -10,3 +10,24 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.ActionLink("Teams", "Name", new { id = item.TeamId }) |
+            @Html.ActionLink("Wins", "Wins", new { id = item.TeamsId}) |
+            @Html.ActionLink("Games", "Games", new { id = item.TeamId})|
+            @Html.ActionLink("OT", "Overtimeloasses" new { id = item.TeamId}) |
+            @Html.ActionLink("PT", "Points", new { id = item.TeamsId})
+        </td>
+    </tr>
+}
+</table>
