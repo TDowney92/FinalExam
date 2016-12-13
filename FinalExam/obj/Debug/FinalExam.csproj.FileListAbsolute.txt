@@ -64,6 +64,6 @@ C:\Users\tyler\Desktop\FinalExam\FinalExam\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\tyler\Desktop\FinalExam\FinalExam\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\tyler\Desktop\FinalExam\FinalExam\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\tyler\Desktop\FinalExam\FinalExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\tyler\Desktop\FinalExam\FinalExam\obj\Debug\FinalExam.csprojResolveAssemblyReference.cache
 C:\Users\tyler\Desktop\FinalExam\FinalExam\obj\Debug\FinalExam.dll
 C:\Users\tyler\Desktop\FinalExam\FinalExam\obj\Debug\FinalExam.pdb
+C:\Users\tyler\Desktop\FinalExam\FinalExam\obj\Debug\FinalExam.csprojResolveAssemblyReference.cache
